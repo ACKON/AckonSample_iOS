@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC80A0EB1A033D8200549FCF /* Ackon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BC80A0E81A033D7400549FCF /* Ackon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BC80A0EC1A034ACC00549FCF /* Ackon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC80A0E81A033D7400549FCF /* Ackon.framework */; };
+		BC92DA4019F653CB00EA9C16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC92DA3F19F653CB00EA9C16 /* main.m */; };
+		BC92DA4319F653CB00EA9C16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC92DA4219F653CB00EA9C16 /* AppDelegate.m */; };
+		BC92DA4919F653CC00EA9C16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC92DA4719F653CB00EA9C16 /* Main.storyboard */; };
+		BC92DA4B19F653CC00EA9C16 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC92DA4A19F653CC00EA9C16 /* Images.xcassets */; };
+		BC92DA4E19F653CC00EA9C16 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC92DA4C19F653CC00EA9C16 /* LaunchScreen.xib */; };
+		BC92DACF19F6554900EA9C16 /* AckonInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC92DAC619F6554900EA9C16 /* AckonInfoViewController.m */; };
+		BC92DAD019F6554900EA9C16 /* AckonListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC92DAC819F6554900EA9C16 /* AckonListViewController.m */; };
+		BC92DAD219F6554900EA9C16 /* ServiceListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC92DACC19F6554900EA9C16 /* ServiceListViewController.m */; };
+		BC92DAD319F6554900EA9C16 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC92DACE19F6554900EA9C16 /* TabBarViewController.m */; };
+		BCBC05A019F75A3600277D54 /* ProximityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBC059F19F75A3600277D54 /* ProximityViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BC92DAC419F6552B00EA9C16 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BC80A0EB1A033D8200549FCF /* Ackon.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BC80A0E81A033D7400549FCF /* Ackon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Ackon.framework; sourceTree = "<group>"; };
+		BC92DA3A19F653CB00EA9C16 /* AckonSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AckonSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC92DA3E19F653CB00EA9C16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC92DA3F19F653CB00EA9C16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC92DA4119F653CB00EA9C16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC92DA4219F653CB00EA9C16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC92DA4819F653CB00EA9C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC92DA4A19F653CC00EA9C16 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BC92DA4D19F653CC00EA9C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BC92DAC519F6554900EA9C16 /* AckonInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AckonInfoViewController.h; sourceTree = "<group>"; };
+		BC92DAC619F6554900EA9C16 /* AckonInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AckonInfoViewController.m; sourceTree = "<group>"; };
+		BC92DAC719F6554900EA9C16 /* AckonListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AckonListViewController.h; sourceTree = "<group>"; };
+		BC92DAC819F6554900EA9C16 /* AckonListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AckonListViewController.m; sourceTree = "<group>"; };
+		BC92DACB19F6554900EA9C16 /* ServiceListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceListViewController.h; sourceTree = "<group>"; };
+		BC92DACC19F6554900EA9C16 /* ServiceListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceListViewController.m; sourceTree = "<group>"; };
+		BC92DACD19F6554900EA9C16 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		BC92DACE19F6554900EA9C16 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		BCBC059E19F75A3600277D54 /* ProximityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProximityViewController.h; sourceTree = "<group>"; };
+		BCBC059F19F75A3600277D54 /* ProximityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProximityViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC92DA3719F653CB00EA9C16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC80A0EC1A034ACC00549FCF /* Ackon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC80A0E71A033D7400549FCF /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				BC80A0E81A033D7400549FCF /* Ackon.framework */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		BC92DA3119F653CB00EA9C16 = {
+			isa = PBXGroup;
+			children = (
+				BC80A0E71A033D7400549FCF /* Library */,
+				BC92DA3C19F653CB00EA9C16 /* AckonSample */,
+				BC92DA3B19F653CB00EA9C16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC92DA3B19F653CB00EA9C16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC92DA3A19F653CB00EA9C16 /* AckonSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC92DA3C19F653CB00EA9C16 /* AckonSample */ = {
+			isa = PBXGroup;
+			children = (
+				BC92DA4119F653CB00EA9C16 /* AppDelegate.h */,
+				BC92DA4219F653CB00EA9C16 /* AppDelegate.m */,
+				BC92DACD19F6554900EA9C16 /* TabBarViewController.h */,
+				BC92DACE19F6554900EA9C16 /* TabBarViewController.m */,
+				BC92DAC719F6554900EA9C16 /* AckonListViewController.h */,
+				BC92DAC819F6554900EA9C16 /* AckonListViewController.m */,
+				BCBC059E19F75A3600277D54 /* ProximityViewController.h */,
+				BCBC059F19F75A3600277D54 /* ProximityViewController.m */,
+				BC92DAC519F6554900EA9C16 /* AckonInfoViewController.h */,
+				BC92DAC619F6554900EA9C16 /* AckonInfoViewController.m */,
+				BC92DACB19F6554900EA9C16 /* ServiceListViewController.h */,
+				BC92DACC19F6554900EA9C16 /* ServiceListViewController.m */,
+				BC92DA4719F653CB00EA9C16 /* Main.storyboard */,
+				BC92DA4A19F653CC00EA9C16 /* Images.xcassets */,
+				BC92DA4C19F653CC00EA9C16 /* LaunchScreen.xib */,
+				BC92DA3D19F653CB00EA9C16 /* Supporting Files */,
+			);
+			path = AckonSample;
+			sourceTree = "<group>";
+		};
+		BC92DA3D19F653CB00EA9C16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC92DA3E19F653CB00EA9C16 /* Info.plist */,
+				BC92DA3F19F653CB00EA9C16 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC92DA3919F653CB00EA9C16 /* AckonSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC92DA5D19F653CC00EA9C16 /* Build configuration list for PBXNativeTarget "AckonSample" */;
+			buildPhases = (
+				BC92DA3619F653CB00EA9C16 /* Sources */,
+				BC92DA3719F653CB00EA9C16 /* Frameworks */,
+				BC92DA3819F653CB00EA9C16 /* Resources */,
+				BC92DAC419F6552B00EA9C16 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AckonSample;
+			productName = AckonSample;
+			productReference = BC92DA3A19F653CB00EA9C16 /* AckonSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC92DA3219F653CB00EA9C16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = OliveStory;
+				TargetAttributes = {
+					BC92DA3919F653CB00EA9C16 = {
+						CreatedOnToolsVersion = 6.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = BC92DA3519F653CB00EA9C16 /* Build configuration list for PBXProject "AckonSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC92DA3119F653CB00EA9C16;
+			productRefGroup = BC92DA3B19F653CB00EA9C16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC92DA3919F653CB00EA9C16 /* AckonSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC92DA3819F653CB00EA9C16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC92DA4919F653CC00EA9C16 /* Main.storyboard in Resources */,
+				BC92DA4E19F653CC00EA9C16 /* LaunchScreen.xib in Resources */,
+				BC92DA4B19F653CC00EA9C16 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC92DA3619F653CB00EA9C16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC92DAD019F6554900EA9C16 /* AckonListViewController.m in Sources */,
+				BCBC05A019F75A3600277D54 /* ProximityViewController.m in Sources */,
+				BC92DA4319F653CB00EA9C16 /* AppDelegate.m in Sources */,
+				BC92DAD319F6554900EA9C16 /* TabBarViewController.m in Sources */,
+				BC92DAD219F6554900EA9C16 /* ServiceListViewController.m in Sources */,
+				BC92DA4019F653CB00EA9C16 /* main.m in Sources */,
+				BC92DACF19F6554900EA9C16 /* AckonInfoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC92DA4719F653CB00EA9C16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC92DA4819F653CB00EA9C16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC92DA4C19F653CC00EA9C16 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC92DA4D19F653CC00EA9C16 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC92DA5B19F653CC00EA9C16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC92DA5C19F653CC00EA9C16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC92DA5E19F653CC00EA9C16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AckonSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC92DA5F19F653CC00EA9C16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AckonSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC92DA3519F653CB00EA9C16 /* Build configuration list for PBXProject "AckonSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC92DA5B19F653CC00EA9C16 /* Debug */,
+				BC92DA5C19F653CC00EA9C16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC92DA5D19F653CC00EA9C16 /* Build configuration list for PBXNativeTarget "AckonSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC92DA5E19F653CC00EA9C16 /* Debug */,
+				BC92DA5F19F653CC00EA9C16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC92DA3219F653CB00EA9C16 /* Project object */;
+}
